@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Horizontally center .bodyContainer */
+    align-items: center; /* Vertically center .bodyContainer */
+    font-family: Inter, sans-serif;
+    background-color: #1E1E1E;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.Information{
+    text-align: center;  
+    color: white;
+}
+
+.Information p {
+    color: #DD9000;
+}
+
+a{
+    color: #ACACAC;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.Email, .Linkedin {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 10px;  
+}
+
+.Email {
+    background-color: #FFFFFF;
+    color: #000000;
+    padding-right: 20px;
+
+}
+
+.Linkedin {
+    background-color: #3AAEE8;
+    padding-right: 20px;
+}
+
+.MiddleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.bodyContainer {
+    width: 65%; /* Define your preferred width */
+    height: auto; /* Allow content to define the height */
+    padding: 0px; /* Padding inside the container */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+}
+
+.About h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.About p{
+    color: #7B7B7B;
+    font-weight: 300;
+}
+
+.Interests h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Interests p{
+    color: #7B7B7B;
+    font-weight: 300;
+}
+
+.FooterContainer {
+    display: flex;
+    align-items: center; /* Center vertically */
+    background-color: #000000;
+    height: 100px;
+}
+
+.FooterContainer img {
+
+}
+
